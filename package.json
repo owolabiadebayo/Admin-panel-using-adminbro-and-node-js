@@ -1,0 +1,23 @@
+{
+  "name": "adminbro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@admin-bro/express": "^3.0.1",
+    "@admin-bro/mongoose": "^1.0.2",
+    "admin-bro": "^3.2.5",
+    "eslint": "^7.11.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "mongoose": "^5.10.9",
+    "nodemon": "^2.0.6",
+    "yarn.lock": "0.0.1-security"
+  }
+}
